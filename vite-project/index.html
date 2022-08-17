@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comment System</title>
+  </head>
+  <body id="body">
+    <div id="youtube">
+      <img src="youtube-screen.png">
+    </div>
+   
+    <h1>Thanks for viewing!<br> Feel free to leave a comment!</h1>
+    <div id="app"></div>
+    <div class="comment1">
+      <div>
+        <div class="comment">
+        <form>
+        <label for="name">Name:</label><br>
+        <input required type="text" id="name" name="name" placeholder="John Doe"><br>
+        <label for="email">Email</label><br>
+        <input required type="email" id="email" name="email" placeholder="johndoe@email.com"><br>
+        <label for="email">Comment</label><br>
+      <textarea required id="comment" name="comment" placeholder="This is my feedback"></textarea><br><br>
+      <input required type="checkbox" id="checkbox" name="checkbox"> Add a public comment <br>
+      <input type="submit" value="Submit" id="button">
+      </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <script type="module" src="/main.js"></script>
+   
+  </body>
+</html>
